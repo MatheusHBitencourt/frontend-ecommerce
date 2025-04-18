@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 E-Commerce App (Next.js + TypeScript)
 
-## Getting Started
-
-First, run the development server:
+## 📦 Como rodar o projeto
 
 ```bash
+# Instale as dependências
+npm install
+
+# Inicie o ambiente de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✅ Funcionalidades implementadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ✅ **Listagem de produtos**
+- ✅ **Página de detalhes do produto**
+- ✅ **Carrinho com edição de quantidade**
+- ✅ **Checkout e envio de pedidos**
+- ✅ **CRUD completo de produtos (admin)**
+- ✅ **Edição dos detalhes do produto**
+- ✅ **Login e cadastro de usuários**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Decisões e liberdades técnicas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🖼️ Utilização de imagens locais simulando uma **CDN**
+- 🔑 Simulação do **Keycloak** por meio de atualizações de token
+- 🌐 Uso de **Context API global** para gerenciamento do usuário autenticado
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚧 O que falta melhorar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🧪 Implementar testes unitários
+- 🐳 Colocar a aplicação em containers (Docker)
+- 🛠️ Rodar a aplicação em ambiente de produção (`npm run build`)
+- 🧾 Garantir **tipagem completa** nas interfaces (atualmente parcial)
+- ⚡ Otimizar o desempenho de **renderização em algumas páginas**
+- 📱 Melhorar e **padronizar a responsividade**
+- 🧹 Limpar o **carrinho** após finalização do pedido
+- 🔗 Garantir **navegação fluida** entre todas as páginas (algumas ainda sem botões)
+- 🎨 Refinar o **estilo visual** e remover alertas visuais temporários
+- 🧭 Padronizar todas as páginas conforme o design system adotado
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Considerações finais
+
+Mais um dia e tava liso :v
