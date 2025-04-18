@@ -38,7 +38,7 @@ npm run dev
 - 🐳 Colocar a aplicação em containers (Docker)
 - 🛠️ Rodar a aplicação em ambiente de produção (`npm run build`)
 - 🧾 Garantir **tipagem completa** nas interfaces (atualmente parcial)
-- ⚡ Otimizar o desempenho de **renderização em algumas páginas**
+- ⚡ Otimizar o desempenho de **renderização em algumas páginas** como a inclusão do React Query, o uso de useMemo para otimizar cálculos de valores, e a redução de redundâncias em chamadas repetidas.
 - 📱 Melhorar e **padronizar a responsividade**
 - 🧹 Limpar o **carrinho** após finalização do pedido
 - 🔗 Garantir **navegação fluida** entre todas as páginas (algumas ainda sem botões)
